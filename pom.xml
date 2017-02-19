@@ -5,4 +5,5 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MyBlog</name>
   <description>Blogging Website</description>
+  <packaging>war</packaging>
 </project>
