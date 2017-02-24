@@ -12,6 +12,6 @@ public class BaseController {
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public String navigateHome(){
 		logger.info("In Base Controller");
-		return "index";
+		return "home";
 	}
 }
