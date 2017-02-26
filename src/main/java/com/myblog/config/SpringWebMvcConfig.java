@@ -49,7 +49,7 @@ public class SpringWebMvcConfig extends WebMvcConfigurerAdapter {
 	 */
 	@Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/WEB-INF/static/**").addResourceLocations("/static/");
+        registry.addResourceHandler("/static/**").addResourceLocations("/static/");
     }
 	/**
 	 * configure message properties for internationalization
