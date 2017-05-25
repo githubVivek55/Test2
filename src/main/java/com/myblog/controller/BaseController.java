@@ -14,4 +14,10 @@ public class BaseController {
 		logger.info("In Base Controller");
 		return "home";
 	}
+	
+	@RequestMapping(value="/about",method=RequestMethod.GET)
+	public String navigate_aboutMe(){
+		logger.info("In navigateAboutme controller");
+		return "about";
+	}
 }

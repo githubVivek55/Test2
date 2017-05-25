@@ -14,16 +14,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="/MyBlog">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="${pageContext.request.contextPath}/about">About</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a href="">Older Post</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                    	<a href="">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -31,19 +34,3 @@
         </div>
         <!-- /.container -->
     </nav>
-    
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('${pageContext.request.contextPath}/static/img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>My Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">Be better and smarter than yesterday..</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
